@@ -3,7 +3,7 @@ name := "akka-distributed-workers"
 version := "1.0"
 
 scalaVersion := "2.12.6"
-lazy val akkaVersion = "2.5.13"
+lazy val akkaVersion = "2.5.15"
 lazy val cassandraPluginVersion = "0.85"
 
 fork in Test := true
