@@ -1,6 +1,6 @@
 # The Back-End Nodes
 
-The back-end nodes host the `Master` actor, which manages work, keeps track of available workers, and notifies registered workers when new work is available. The single `Master` actor is the heart of the solution, with built-in resilience provided by the []Akka Cluster Singleton](http://doc.akka.io/docs/akka/current/scala/guide/modules.html#cluster-singleton).
+The back-end nodes host the `Master` actor, which manages work, keeps track of available workers, and notifies registered workers when new work is available. The single `Master` actor is the heart of the solution, with built-in resilience provided by the [Akka Cluster Singleton](http://doc.akka.io/docs/akka/current/scala/guide/modules.html#cluster-singleton).
 
 ## The Master singleton
 
